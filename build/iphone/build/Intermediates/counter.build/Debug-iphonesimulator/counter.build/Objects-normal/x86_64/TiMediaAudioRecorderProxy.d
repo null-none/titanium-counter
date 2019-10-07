@@ -1,0 +1,26 @@
+dependencies: \
+  /Users/dmitriy/Work/titanium/counter/build/iphone/Classes/ThirdpartyNS.h \
+  /Users/dmitriy/Work/titanium/counter/build/iphone/Classes/defines.h \
+  /Users/dmitriy/Work/titanium/counter/build/iphone/counter_Prefix.pch \
+  /Users/dmitriy/Work/titanium/counter/build/iphone/Classes/TiMediaAudioRecorderProxy.mm \
+  /Users/dmitriy/Work/titanium/counter/build/iphone/Classes/TiMediaAudioRecorderProxy.h \
+  /Users/dmitriy/Work/titanium/counter/build/iphone/Classes/TiMediaTypes.h \
+  Frameworks/TitaniumKit.framework/Headers/TiFile.h \
+  Frameworks/TitaniumKit.framework/Headers/TiProxy.h \
+  Frameworks/TitaniumKit.framework/Headers/KrollCallback.h \
+  Frameworks/TitaniumKit.framework/Headers/KrollContext.h \
+  Frameworks/TitaniumKit.framework/Headers/KrollWrapper.h \
+  Frameworks/TitaniumKit.framework/Headers/KrollObject.h \
+  Frameworks/TitaniumKit.framework/Headers/TiBindingRunLoop.h \
+  Frameworks/TitaniumKit.framework/Headers/TiEvaluator.h \
+  Frameworks/TitaniumKit.framework/Headers/TiBase.h \
+  Frameworks/TitaniumKit.framework/Headers/TiSharedConfig.h \
+  Frameworks/TitaniumKit.framework/Headers/TiThreading.h \
+  Frameworks/TitaniumKit.framework/Headers/TiPublicAPI.h \
+  /Users/dmitriy/Work/titanium/counter/build/iphone/Classes/TiMediaAudioSession.h \
+  Frameworks/TitaniumKit.framework/Headers/TiFilesystemFileProxy.h \
+  Frameworks/TitaniumKit.framework/Headers/TiUtils.h \
+  Frameworks/TitaniumKit.framework/Headers/TiDimension.h \
+  Frameworks/TitaniumKit.framework/Headers/TiBuffer.h \
+  Frameworks/TitaniumKit.framework/Headers/TiColor.h \
+  Frameworks/TitaniumKit.framework/Headers/WebFont.h

@@ -1,0 +1,270 @@
+
+10/7/2019, 2:41:47 PM
+
+Operating System
+  Name                        = Mac OS X
+  Version                     = 10.14.6
+  Architecture                = 64bit
+  # CPUs                      = 4
+  Memory                      = 8589934592
+
+Node.js
+  Node.js Version             = 10.16.3
+  npm Version                 = 6.9.0
+
+Titanium CLI
+  CLI Version                 = 5.2.1
+
+Titanium SDK
+  SDK Version                 = 8.2.0.GA
+  SDK Path                    = /Users/dmitriy/Library/Application Support/Titanium/mobilesdk/osx/8.2.0.GA
+  Target Platform             = iphone
+
+Command
+  /usr/local/bin/node /Users/dmitriy/.appcelerator/install/7.1.1/package/node_modules/titanium/lib/titanium.js build --platform ios --log-level trace --sdk 8.2.0.GA --project-dir /Users/dmitriy/Work/titanium/counter --target simulator --ios-version 13.0 --device-family universal --device-id 0A111867-BD40-47C7-9BDF-9AAA9C145436 --source-maps --skip-js-minify --liveview --deploy-type development --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 49546 --config-file /var/folders/c3/8cpr7x7d5q5_31lb6986t8vw0000gn/T/build-1570448503698.json --no-banner --project-dir /Users/dmitriy/Work/titanium/counter
+
+[TRACE]  [ioslib] Validating iOS Simulator UDID 0A111867-BD40-47C7-9BDF-9AAA9C145436
+[TRACE]  [ioslib] Found iOS Simulator UDID 0A111867-BD40-47C7-9BDF-9AAA9C145436
+[TRACE]  [ioslib] Selected iOS Simulator: iPhone 11
+[TRACE]  [ioslib]   UDID    = 0A111867-BD40-47C7-9BDF-9AAA9C145436
+[TRACE]  [ioslib]   iOS     = 13.0
+[TRACE]  [ioslib] Autoselected Xcode: 11.0
+[DEBUG]  Detecting plugins in /Users/dmitriy/Work/titanium/counter/plugins
+[DEBUG]  Detected plugin: ti.alloy @ /Users/dmitriy/Work/titanium/counter/plugins/ti.alloy
+[DEBUG]  Looking for Titanium plugin id=ti.alloy version=1.0
+[INFO]   Found Titanium plugin id=ti.alloy version=1.0 
+[TRACE]  Snapshotting build directory
+[DEBUG]  Using log server port 32256
+[DEBUG]  Titanium SDK iOS directory: /Users/dmitriy/Library/Application Support/Titanium/mobilesdk/osx/8.2.0.GA/iphone
+[INFO]   Deploy type: development
+[INFO]   Building for target: simulator
+[INFO]   Building using iOS SDK: 13.0
+[INFO]   Building for iOS Simulator: iPhone 11
+[DEBUG]  UDID: 0A111867-BD40-47C7-9BDF-9AAA9C145436
+[DEBUG]  Simulator type: iphone
+[DEBUG]  Simulator version: 13.0
+[INFO]   Building for device family: universal
+[DEBUG]  Setting Xcode target to Debug
+[DEBUG]  Setting Xcode build OS to iphonesimulator
+[DEBUG]  Xcode installation: /Applications/Xcode.app/Contents/Developer
+[DEBUG]  iOS WWDR certificate: installed
+[INFO]   Team ID: n/a
+[INFO]   Minimum iOS version: 9.0
+[INFO]   Logging enabled on port 32256
+[INFO]   Debugging disabled
+[INFO]   Profiler disabled
+[INFO]   Set to copy files instead of symlinking
+[INFO]   Transpile javascript: true
+[INFO]   Generate source maps: true
+[INFO]   Initializing the build directory
+[INFO]   Found Alloy app in /Users/dmitriy/Work/titanium/counter/app
+[INFO]   Executing Alloy compile: /usr/local/bin/node /Users/dmitriy/.appcelerator/install/7.1.1/package/node_modules/alloy/bin/alloy compile /Users/dmitriy/Work/titanium/counter/app --config platform=ios,version=0,simtype=none,devicefamily=universal,deploytype=development,target=simulator --no-colors
+[DEBUG]         .__  .__                
+[DEBUG]  _____  |  | |  |   ____ ___.__.
+[DEBUG]  \__  \ |  | |  |  /  _ <   |  |
+[DEBUG]   / __ \|  |_|  |_(  <_> )___  |
+[DEBUG]  (____  /____/____/\____// ____|
+[DEBUG]       \/                 \/
+[DEBUG]  Alloy 1.14.1 by Appcelerator. The MVC app framework for Titanium.
+[DEBUG]  ----- CONFIGURATION -----
+[DEBUG]  raw config = "platform=ios,version=0,simtype=none,devicefamily=universal,deploytype=development,target=simulator"
+[DEBUG]  platform = ios
+[DEBUG]  version = 0
+[DEBUG]  simtype = none
+[DEBUG]  devicefamily = universal
+[DEBUG]  deploytype = development
+[DEBUG]  target = simulator
+[DEBUG]  project path = /Users/dmitriy/Work/titanium/counter
+[DEBUG]  app path = /Users/dmitriy/Work/titanium/counter/app
+[DEBUG]  
+[DEBUG]  ----- CONFIG.JSON -----
+[DEBUG]  dependencies = {}
+[INFO]   [config.json] config.json unchanged, using cached config.json...
+[DEBUG]  {
+[DEBUG]  "dependencies": {},
+[DEBUG]  "sourcemap": true,
+[DEBUG]  "autoStyle": false,
+[DEBUG]  "adapters": [
+[DEBUG]  "localStorage",
+[DEBUG]  "properties",
+[DEBUG]  "sql"
+[DEBUG]  ]
+[DEBUG]  }
+[DEBUG]  
+[DEBUG]  ----- CLEANING RESOURCES -----
+[DEBUG]  Removing orphaned controllers ...
+[DEBUG]  Removing orphaned models ...
+[DEBUG]  Removing orphaned styles ...
+[DEBUG]  Removing orphaned sync adapters...
+[DEBUG]  Removing orphaned assets and libs...
+[DEBUG]  
+[DEBUG]  ----- BASE RUNTIME FILES -----
+[TRACE]  SRC_DIR=/Users/dmitriy/.appcelerator/install/7.1.1/package/node_modules/alloy/Alloy/lib
+[TRACE]  Copying SRC_DIR/alloy/widget.js --> Resources/iphone/alloy/widget.js
+[TRACE]  Copying SRC_DIR/alloy/underscore.js --> Resources/iphone/alloy/underscore.js
+[TRACE]  Copying SRC_DIR/alloy/sync/sql.js --> Resources/iphone/alloy/sync/sql.js
+[TRACE]  Copying SRC_DIR/alloy/sync/properties.js --> Resources/iphone/alloy/sync/properties.js
+[TRACE]  Copying SRC_DIR/alloy/sync/localStorage.js --> Resources/iphone/alloy/sync/localStorage.js
+[TRACE]  Copying SRC_DIR/alloy/controllers/BaseController.js --> Resources/iphone/alloy/controllers/BaseController.js
+[TRACE]  
+[TRACE]  Generating ../Resources/iphone/alloy.js
+[TRACE]  SRC_DIR=/Users/dmitriy/.appcelerator/install/7.1.1/package/node_modules/alloy/Alloy/common
+[TRACE]  Copying SRC_DIR/constants.js --> Resources/iphone/alloy/constants.js
+[TRACE]  
+[TRACE]  SRC_DIR=/Users/dmitriy/Work/titanium/counter/app/assets
+[TRACE]  
+[DEBUG]  Resetting /Users/dmitriy/Work/titanium/counter/platform/ios
+[DEBUG]  
+[DEBUG]  Resetting /Users/dmitriy/Work/titanium/counter/i18n
+[DEBUG]  
+[INFO]   ----- MVC GENERATION -----
+[INFO]   [global style] loading from cache...
+[INFO]   [index.xml] view processing...
+[INFO]   style:      "index.tss"
+[INFO]   view:       "index.xml"
+[INFO]   controller: "index.js"
+[INFO]   created:    "Resources/iphone/alloy/controllers/index.js"
+[INFO]   created:     "Resources/iphone/alloy/styles/index.js"
+[INFO]   
+[INFO]   [app.js] using cached app.js...
+[INFO]   
+[INFO]   ----- OPTIMIZING -----
+[INFO]   - iphone/alloy.js
+[INFO]   - iphone/alloy/sync/localStorage.js
+[INFO]   - iphone/alloy/sync/properties.js
+[INFO]   - iphone/alloy/sync/sql.js
+[TRACE]  
+[TRACE]  Benchmarking
+[TRACE]  ------------
+[TRACE]  [0.8194s] TOTAL
+[INFO]   
+[INFO]   Alloy compiled in 0.8194s
+[INFO]   Alloy compiler completed successfully
+[TRACE]  Starting third-party framework detection
+[TRACE]  Scanning /Users/dmitriy/Work/titanium/counter/platform/ios for frameworks
+[TRACE]  offline build file /var/folders/c3/8cpr7x7d5q5_31lb6986t8vw0000gn/T/build-4d8a079345c162ebb03be934049deee8e42879ad.json
+[TRACE]  online 1
+[TRACE]  optimizing build, last build was 2090.586 sec ago
+[INFO]   Creating Xcode project
+[TRACE]  Removing pre-compile phase
+[TRACE]  No native module libraries to add
+[TRACE]  No extensions to add
+[TRACE]  No change, skipping /Users/dmitriy/Work/titanium/counter/build/iphone/counter.xcodeproj/project.pbxproj
+[INFO]   Creating Entitlements.plist
+[TRACE]  No change, skipping /Users/dmitriy/Work/titanium/counter/build/iphone/counter.entitlements
+[INFO]   Creating Info.plist
+[DEBUG]  Checking for Splash Screen localization
+[INFO]   Disabling ATS
+[TRACE]  No change, skipping /Users/dmitriy/Work/titanium/counter/build/iphone/Info.plist
+[INFO]   Creating main.m
+[TRACE]  No change, skipping /Users/dmitriy/Work/titanium/counter/build/iphone/main.m
+[INFO]   Creating Xcode config files
+[TRACE]  No change, skipping /Users/dmitriy/Work/titanium/counter/build/iphone/project.xcconfig
+[TRACE]  No change, skipping /Users/dmitriy/Work/titanium/counter/build/iphone/module.xcconfig
+[INFO]   Copying Titanium libraries
+[TRACE]  No change, skipping /Users/dmitriy/Work/titanium/counter/build/iphone/lib/libtiverify.a
+[INFO]   Copying Titanium iOS files
+[TRACE]  Skipping Classes/ApplicationRouting.m, it'll be processed later
+[TRACE]  No change, skipping /Users/dmitriy/Work/titanium/counter/build/iphone/counter_Prefix.pch
+[TRACE]  No change, skipping /Users/dmitriy/Work/titanium/counter/build/iphone/counter.xcodeproj/xcshareddata/xcschemes/counter.xcscheme
+[INFO]   Installing default LaunchScreen.storyboard
+[TRACE]  No change, skipping /Users/dmitriy/Work/titanium/counter/build/iphone/LaunchScreen.storyboard
+[INFO]   Creating debugger and profiler plists
+[DEBUG]  Skipping /Users/dmitriy/Work/titanium/counter/build/iphone/build/Products/Debug-iphonesimulator/counter.app/debugger.plist
+[DEBUG]  Skipping /Users/dmitriy/Work/titanium/counter/build/iphone/build/Products/Debug-iphonesimulator/counter.app/profiler.plist
+[INFO]   Analyzing Resources directory
+[INFO]   Analyzing platform files
+[INFO]   Analyzing module files
+[INFO]   Analyzing localized launch images
+[INFO]   Analyzing CommonJS modules
+[INFO]   Creating asset catalog
+[TRACE]  No change, skipping /Users/dmitriy/Work/titanium/counter/build/iphone/Assets.xcassets/Contents.json
+[INFO]   Creating app icon set
+[TRACE]  Found generated 29x29 app icon: /Users/dmitriy/Work/titanium/counter/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small.png
+[TRACE]  Found generated 58x58 app icon: /Users/dmitriy/Work/titanium/counter/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small@2x.png
+[TRACE]  Found generated 87x87 app icon: /Users/dmitriy/Work/titanium/counter/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small@3x.png
+[TRACE]  Found generated 40x40 app icon: /Users/dmitriy/Work/titanium/counter/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40.png
+[TRACE]  Found generated 80x80 app icon: /Users/dmitriy/Work/titanium/counter/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40@2x.png
+[TRACE]  Found generated 120x120 app icon: /Users/dmitriy/Work/titanium/counter/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40@3x.png
+[TRACE]  Found generated 120x120 app icon: /Users/dmitriy/Work/titanium/counter/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-60@2x.png
+[TRACE]  Found generated 180x180 app icon: /Users/dmitriy/Work/titanium/counter/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-60@3x.png
+[TRACE]  Found generated 76x76 app icon: /Users/dmitriy/Work/titanium/counter/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-76.png
+[TRACE]  Found generated 152x152 app icon: /Users/dmitriy/Work/titanium/counter/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-76@2x.png
+[TRACE]  Found generated 167x167 app icon: /Users/dmitriy/Work/titanium/counter/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-83.5@2x.png
+[TRACE]  Found generated 1024x1024 app icon: /Users/dmitriy/Work/titanium/counter/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Marketing.png
+[TRACE]  No change, skipping /Users/dmitriy/Work/titanium/counter/build/iphone/Assets.xcassets/AppIcon.appiconset/Contents.json
+[INFO]   Creating launch logo image set
+[TRACE]  Found generated 320x320 launch logo: /Users/dmitriy/Work/titanium/counter/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo~iphone.png
+[TRACE]  Found generated 374x374 launch logo: /Users/dmitriy/Work/titanium/counter/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo@2x~iphone.png
+[TRACE]  Found generated 621x621 launch logo: /Users/dmitriy/Work/titanium/counter/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo@3x~iphone.png
+[TRACE]  Found generated 384x384 launch logo: /Users/dmitriy/Work/titanium/counter/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo~ipad.png
+[TRACE]  Found generated 1024x1024 launch logo: /Users/dmitriy/Work/titanium/counter/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo@2x~ipad.png
+[TRACE]  No change, skipping /Users/dmitriy/Work/titanium/counter/build/iphone/Assets.xcassets/LaunchLogo.imageset/Contents.json
+[INFO]   Creating launch image set
+[DEBUG]  Unsupported launch image Resources/iphone/Default.png, skipping
+[TRACE]  No change, skipping /Users/dmitriy/Work/titanium/counter/build/iphone/Assets.xcassets/LaunchImage.launchimage/Contents.json
+[INFO]   Creating assets image set
+[DEBUG]  Copying resources
+[DEBUG]  Overwriting /Users/dmitriy/Work/titanium/counter/platform/ios/alloy_generated => /Users/dmitriy/Work/titanium/counter/build/iphone/alloy_generated
+[TRACE]  No change, skipping /Users/dmitriy/Work/titanium/counter/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x.png
+[TRACE]  No change, skipping /Users/dmitriy/Work/titanium/counter/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-667h@2x.png
+[TRACE]  No change, skipping /Users/dmitriy/Work/titanium/counter/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape-1792h@2x.png
+[TRACE]  No change, skipping /Users/dmitriy/Work/titanium/counter/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape-2436h@3x.png
+[TRACE]  No change, skipping /Users/dmitriy/Work/titanium/counter/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape-2688h@3x.png
+[TRACE]  No change, skipping /Users/dmitriy/Work/titanium/counter/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape-736h@3x.png
+[TRACE]  No change, skipping /Users/dmitriy/Work/titanium/counter/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape.png
+[TRACE]  No change, skipping /Users/dmitriy/Work/titanium/counter/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape@2x.png
+[TRACE]  No change, skipping /Users/dmitriy/Work/titanium/counter/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait-1792h@2x.png
+[TRACE]  No change, skipping /Users/dmitriy/Work/titanium/counter/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait-2436h@3x.png
+[TRACE]  No change, skipping /Users/dmitriy/Work/titanium/counter/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait-2688h@3x.png
+[TRACE]  No change, skipping /Users/dmitriy/Work/titanium/counter/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait-736h@3x.png
+[TRACE]  No change, skipping /Users/dmitriy/Work/titanium/counter/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait.png
+[TRACE]  No change, skipping /Users/dmitriy/Work/titanium/counter/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait@2x.png
+[TRACE]  No change, skipping /Users/dmitriy/Work/titanium/counter/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default@2x.png
+[DEBUG]  Copying CSS files
+[INFO]   Processing JavaScript files
+[TRACE]  process-js: Setting initial task state to "created"
+[TRACE]  process-js: Starting task
+[TRACE]  process-js: Changing task state from "created" to "running"
+[INFO]   Writing app properties
+[TRACE]  No change, skipping /Users/dmitriy/Work/titanium/counter/build/iphone/build/Products/Debug-iphonesimulator/counter.app/_app_props_.json
+[DEBUG]  Writing ENV variables
+[TRACE]  No change, skipping /Users/dmitriy/Work/titanium/counter/build/iphone/build/Products/Debug-iphonesimulator/counter.app/_env_.json
+[TRACE]  process-js: Input files changed, do incremental task run
+[DEBUG]  process-js: Copying and minifying /Users/dmitriy/Work/titanium/counter/Resources/iphone/alloy/controllers/index.js => /Users/dmitriy/Work/titanium/counter/build/iphone/build/Products/Debug-iphonesimulator/counter.app/alloy/controllers/index.js
+[TRACE]  process-js: Changing task state from "running" to "finished"
+[TRACE]  process-js: Finished task in 0s 482.492ms
+[INFO]   Writing bootstrap json
+[TRACE]  No change, skipping /Users/dmitriy/Work/titanium/counter/build/iphone/build/Products/Debug-iphonesimulator/counter.app/ti.internal/bootstrap.json
+[DEBUG]  Using default application routing
+[TRACE]  No change, skipping /Users/dmitriy/Work/titanium/counter/build/iphone/Classes/ApplicationRouting.m
+[INFO]   Writing i18n files
+[DEBUG]  Compiling localization files
+[DEBUG]  No i18n files to process
+[INFO]   Processing Titanium symbols
+[DEBUG]  Processing Titanium namespace resources
+[TRACE]  No change, skipping /Users/dmitriy/Work/titanium/counter/build/iphone/build/Products/Debug-iphonesimulator/counter.app/modules/ui/images/badge.png
+[TRACE]  No change, skipping /Users/dmitriy/Work/titanium/counter/build/iphone/build/Products/Debug-iphonesimulator/counter.app/modules/ui/images/closeButton.png
+[TRACE]  No change, skipping /Users/dmitriy/Work/titanium/counter/build/iphone/build/Products/Debug-iphonesimulator/counter.app/modules/ui/images/photoDefault.png
+[TRACE]  No change, skipping /Users/dmitriy/Work/titanium/counter/build/iphone/Classes/defines.h
+[INFO]   Removing files
+[DEBUG]  Removing empty directories
+[INFO]   Writing index.json with listing of JS/JSON files
+[INFO]   Skipping xcodebuild
+[INFO]   Finished building the application in 2s 543ms
+[INFO]   Launching iOS Simulator
+[TRACE]  [ioslib] Selected iOS Simulator: iPhone 11
+[TRACE]  [ioslib]   UDID    = 0A111867-BD40-47C7-9BDF-9AAA9C145436
+[TRACE]  [ioslib]   iOS     = 13.0
+[TRACE]  [ioslib] Autoselected Xcode: 11.0
+[TRACE]  [ioslib] Checking if the simulator /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/MacOS/Simulator is already running
+[TRACE]  [ioslib] Simulator is not running
+[TRACE]  [ioslib] Tailing iPhone 11 Simulator system log: /Users/dmitriy/Library/Logs/CoreSimulator/0A111867-BD40-47C7-9BDF-9AAA9C145436/system.log
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/MacOS/Simulator -CurrentDeviceUDID 0A111867-BD40-47C7-9BDF-9AAA9C145436
+[TRACE]  [ioslib] Simulator is booted
+[TRACE]  [ioslib] iPhone 11 Simulator started
+[TRACE]  [ioslib] Running: osascript "/Users/dmitriy/Library/Application Support/Titanium/mobilesdk/osx/8.2.0.GA/node_modules/ioslib/lib/sim_focus.scpt" "Simulator"
+[TRACE]  [ioslib] iPhone 11 Simulator successfully focused
+[TRACE]  [ioslib] Installing the app
+[TRACE]  [ioslib] App launched
+[TRACE]  [ioslib] Trying to connect to log server port 32256...

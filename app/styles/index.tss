@@ -1,0 +1,36 @@
+".container": {
+	backgroundColor: "#fafafa"
+}
+
+"Label": {
+	width: 100,
+	textAlign: "center",
+	color: "#000"
+}
+
+"#label": {
+	width: 150,
+	font: {
+		fontSize: 28
+	}
+}
+
+"Button": {
+	width: 50,
+	height: 50,
+	borderRadius: 25,
+	backgroundColor: "#fff",
+	color: "#000",
+	borderColor: "#c3c3c3",
+	font: {
+		fontSize: 20
+	}
+}
+
+"#minus": {
+	left: 100
+}
+
+"#plus": {
+	right: 100
+}

@@ -1,0 +1,9 @@
+<Alloy>
+	<NavigationWindow>
+		<Window class="container" title="Number Counter">
+			<Button id="minus" onClick="doCounter">-</Button>
+			<Label id="label">0</Label>
+			<Button id='plus' onClick="doCounter">+</Button>
+		</Window>
+	</NavigationWindow>
+</Alloy>
